@@ -34,7 +34,7 @@ main {
 
 .profile-container {
   width: 90%;
-  max-width: 320px;
+  max-width: 375px;
   text-align: center;
   background-color: var(--container-bg-color);
   color: var(--text-color);

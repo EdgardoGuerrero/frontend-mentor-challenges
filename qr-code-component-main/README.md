@@ -12,7 +12,7 @@ Los usuarios deben ser capaces de:
 ![Diseño Final](./images/screenshot.png)
 
 ### Enlaces
-- URL del Repositorio: [https://github.com/EdgardoGuerrero/frontend-mentor-challenges](https://github.com/EdgardoGuerrero/frontend-mentor-challenges)
+- URL del Repositorio: [https://github.com/EdgardoGuerrero/frontend-mentor-challenges/tree/main/qr-code-component-main](https://github.com/EdgardoGuerrero/frontend-mentor-challenges/tree/main/qr-code-component-main)
 - URL del Sitio Web Vivo: [https://edgardoguerrero.github.io/frontend-mentor-challenges/qr-code-component-main/](https://edgardoguerrero.github.io/frontend-mentor-challenges/qr-code-component-main/)
 
 ## Mi proceso
