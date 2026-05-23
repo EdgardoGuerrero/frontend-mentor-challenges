@@ -1,6 +1,6 @@
 # Frontend Mentor - QR Code Component Solution
 
-Esta es mi solución al [reto del componente de código QR en Frontend Mentor](https://www.frontendmentor.io/challenges/qr-code-component-i9XgGgN2_). 
+Esta es mi solución al [reto del componente de código QR en Frontend Mentor](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H). 
 
 ## Información del proyecto
 
