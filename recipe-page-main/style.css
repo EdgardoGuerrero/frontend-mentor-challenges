@@ -1,0 +1,166 @@
+:root {
+  --font-young-serif: "Young Serif", serif;
+  --font-outfit: "Outfit", sans-serif;
+  --bg-body: hsl(30, 54%, 90%);
+  --container-bg-color: hsl(0, 0%, 100%);
+  --bg-preparation-time: hsl(330, 100%, 98%);
+  --text-color-primary: hsl(24, 5%, 18%);
+  --text-color-secondary: hsl(30, 10%, 34%);
+  --text-color-prep-time: hsl(332, 51%, 32%);
+  --text-color-subtitle: hsl(14, 45%, 36%);
+  --hr-color: hsl(30, 18%, 87%);
+}
+
+html {
+  font-size: 1rem;
+}
+
+body {
+  background-color: var(--bg-body);
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+}
+
+main {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  color: var(--text-color-primary);
+  font-weight: 400;
+}
+
+h2 {
+  font-family: var(--font-young-serif);
+  font-weight: 400;
+  color: var(--text-color-subtitle);
+}
+
+ul,
+ol {
+  padding-inline-start: 1.4rem;
+  line-height: 1.5;
+}
+
+li {
+  padding-inline-start: 1.25rem;
+  margin-block-end: 0.75rem;
+}
+
+hr {
+  border: 0.05rem solid var(--hr-color);
+}
+
+.recipe-container {
+  margin: 5rem 0;
+  font-family: var(--font-outfit);
+  font-weight: 400;
+  max-width: 40rem;
+  background-color: var(--container-bg-color);
+  color: var(--text-color-secondary);
+  border-radius: 2rem;
+  padding: 2.5rem;
+}
+
+.recipe-image {
+  width: 100%;
+  height: auto;
+  border-radius: 0.75rem;
+}
+
+.recipe-title {
+  font-family: var(--font-young-serif);
+  font-weight: 400;
+}
+
+.recipe-description {
+  margin: 1.25rem 0 2.5rem;
+  line-height: 1.5rem;
+}
+
+.recipe-preparation-time {
+  background-color: var(--bg-preparation-time);
+  border-radius: 0.75rem;
+  margin-top: 1.25rem;
+  padding: 1.75rem;
+}
+
+.recipe-preparation-time p {
+  margin: 0;
+  color: var(--text-color-prep-time);
+  font-weight: 600;
+  font-size: 1.25rem;
+}
+
+.recipe-preparation-time li::marker {
+  color: var(--text-color-prep-time);
+}
+
+.recipe-ingredients,
+.recipe-instructions {
+  margin-bottom: 2rem;
+}
+
+.recipe-instructions li::marker {
+  color: var(--text-color-subtitle);
+  font-weight: 700;
+}
+
+.recipe-nutrition-info {
+  margin: 1.25rem 0;
+  line-height: 1.5rem;
+}
+
+.recipe-nutrition-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 1.25rem;
+}
+
+.recipe-nutrition-table td {
+  border-bottom: 0.1rem solid var(--hr-color);
+  padding: 1rem 2rem;
+}
+
+.recipe-nutrition-table td:last-child {
+  color: var(--text-color-subtitle);
+  font-weight: 700;
+}
+
+.recipe-nutrition-table tr:last-child td {
+  border-bottom: none;
+}
+
+.attribution {
+  font-family: var(--font-outfit);
+  color: var(--text-color-secondary);
+  text-align: center;
+  padding: 1.25rem;
+  font-size: 1rem;
+}
+
+@media (max-width: 768px) {
+  main {
+    align-items: flex-start;
+  }
+  
+  .recipe-container {
+    max-width: 100%;
+    border-radius: 0;
+    margin: 0;
+    padding: 0;
+  }
+
+  .recipe-content {
+    padding: 0 2rem;
+  }
+
+  .recipe-image {
+    border-radius: 0;
+  }
+}

@@ -11,8 +11,6 @@ Esta es una solución para el [reto de Social links profile en Frontend Mentor](
 - [Mi proceso](#mi-proceso)
   - [Construido con](#construido-con)
   - [Qué aprendí](#qué-aprendí)
-  - [Desarrollo continuo](#desarrollo-continuo)
-  - [Colaboración con IA](#colaboración-con-ia)
 - [Autor](#autor)
 
 ## Vista general
@@ -53,3 +51,8 @@ En este reto, mi enfoque principal estuvo en la organización y la escalabilidad
   --accent-color: hsl(75, 94%, 57%);
   --font-family: "Inter", sans-serif;
 }
+```
+
+## Autor
+- GitHub - [@EdgardoGuerrero](https://github.com/EdgardoGuerrero)
+- Frontend Mentor - [@EdgardoGuerrero](https://www.frontendmentor.io/profile/EdgardoGuerrero)
